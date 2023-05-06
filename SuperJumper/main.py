@@ -4,7 +4,7 @@ import settings
 from level import Level
 
 pygame.init()
-screen = pygame.display.set_mode(settings.SCREEN_SIZE)
+screen = pygame.display.set_mode(settings.SCREEN_SIZE, vsync=True)
 pygame.display.set_caption("Platformer")
 clock = pygame.time.Clock()
 
