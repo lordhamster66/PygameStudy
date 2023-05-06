@@ -6,7 +6,7 @@ FPS = 60
 SCREEN_SIZE = (800, 432)
 
 
-screen = pygame.display.set_mode(SCREEN_SIZE)
+screen = pygame.display.set_mode(SCREEN_SIZE, vsync=True)
 pygame.display.set_caption("Parallax")
 clock = pygame.time.Clock()
 
