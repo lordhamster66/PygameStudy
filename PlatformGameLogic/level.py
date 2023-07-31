@@ -1,5 +1,4 @@
 import pygame
-
 import settings
 from camera import Camera
 from player import Player

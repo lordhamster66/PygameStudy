@@ -1,5 +1,4 @@
 import pygame
-
 import settings
 from level import Level
 

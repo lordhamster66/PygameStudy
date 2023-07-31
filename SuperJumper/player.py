@@ -1,7 +1,6 @@
 from typing import Any
 
 import pygame
-
 import settings
 from utility.load_assets import load_animations_from_sprite_sheets
 

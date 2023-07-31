@@ -1,7 +1,6 @@
 from typing import Any
 
 import pygame
-
 import settings
 
 
